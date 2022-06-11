@@ -2,7 +2,6 @@ package main;
 
 
 import java.util.ArrayList;
-import java.util.List;
 
 public interface Repository {
 
@@ -10,5 +9,5 @@ public interface Repository {
 
     void add (Cats cats);
 
-    Cats cat = new Cats();
+    Cats cats = new Cats();
 }

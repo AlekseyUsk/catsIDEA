@@ -11,6 +11,10 @@ public class Cats {
         this.catsEat = catsEat;
     }
 
+    public int getBelly() {
+        return belly;
+    }
+
     public Cats() {
 
     }
